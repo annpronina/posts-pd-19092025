@@ -8,10 +8,11 @@ async function getPosts() {
     const data = await res.json();
 
     console.log(data);
+    postList(data);
 }
 
 function postList() {
-
+    return (`${data.title} \n ${data.body}`);
 }
 
 btn.addEventListener("click", getPosts);
