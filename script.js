@@ -6,3 +6,5 @@ async function changeNumber(){
     
     console.log(data);
 }
+
+btn.addEventListener("click", changeNumber);
